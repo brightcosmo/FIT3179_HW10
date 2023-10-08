@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Carbon Gross Emissions by States in Malaysia (2001-2022)",
+  "title": "Gross Carbon Emissions by States in Malaysia (2001-2022)",
   "data": {"url": "https://raw.githubusercontent.com/brightcosmo/FIT3179_HW10/main/data/country_carbon_data2.csv"},
   "width": 800,
   "height": 400,
@@ -17,7 +17,7 @@
         "y": {
           "field": "carbon_gross_emissions",
           "type": "quantitative",
-          "axis": {"title": "Carbon Gross Emissions (Mg CO2e)"}
+          "axis": {"title": "Gross Carbon Emissions (Mg CO2e)"}
         },
         "color": {
           "field": "subnational1",
