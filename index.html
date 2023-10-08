@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/brightcosmo/FIT3179_HW10/main/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+  </head>
+  <body>
+    
+    <div class="container">
+      <h3 class="header">Week 9 Homework</h3>
+      <div id="symbol_map_spec" class="content"></div>
+    </div>
+    
+    <script type="text/javascript">
+      var spec = "https://raw.githubusercontent.com/brightcosmo/FIT3179_HW10/main/hw9.json";
+      vegaEmbed('#symbol_map_spec', spec).then(function(result) {}).catch(console.error);
+    </script>
+    
+    <div class="container">
+      <h3 class="header" id="header2">Week 10 Homework</h3>
+      <div id="line_chart_spec" class="content"></div>
+    </div>
+    
+    <script>
+      var spec2 = "https://raw.githubusercontent.com/brightcosmo/FIT3179_HW10/main/hw10.json";
+      vegaEmbed('#line_chart_spec', spec2).then(function(result) {}).catch(console.error);
+    </script>
+  </body>
+</html>
