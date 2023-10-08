@@ -27,7 +27,7 @@
         "tooltip": [
           {"field": "subnational1", "type": "nominal", "title": "State"},
           {"field": "year", "type": "temporal", "title": "Year", "timeUnit": "year"},
-          {"field": "carbon_gross_emissions", "type": "quantitative", "title": "Carbon Gross Emissions (Mg CO2e)"}
+          {"field": "carbon_gross_emissions", "type": "quantitative", "title": "Carbon Emissions (Mg CO2e)"}
         ]
       },
       "selection": {
